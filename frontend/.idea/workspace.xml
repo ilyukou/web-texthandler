@@ -2,31 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="995767ba-d545-47d2-ac7f-dfad7cb8e56d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/Database/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/Database/DatabaseSwitcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/Database/HeapDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/model/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/model/ResponseStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/model/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/servlets/data/DataServlets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/servlets/upload/UploadServlets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/data/Data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/upload/UploadForm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/upload/UploadForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/web-texthandler.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/frontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RefreshDataComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/backend.war" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/upload/UploadForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/upload/UploadForm.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +77,8 @@
       <workItem from="1573647538440" duration="603000" />
       <workItem from="1573649750696" duration="294000" />
       <workItem from="1573650804774" duration="7000" />
-      <workItem from="1573747277130" duration="6788000" />
+      <workItem from="1573747277130" duration="7839000" />
+      <workItem from="1573799468633" duration="2595000" />
     </task>
     <servers />
   </component>

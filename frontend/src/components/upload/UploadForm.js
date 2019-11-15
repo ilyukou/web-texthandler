@@ -15,6 +15,7 @@ class UploadForm extends Component {
             method: 'POST',
             body: data
         });
+
     }
 
     render() {
