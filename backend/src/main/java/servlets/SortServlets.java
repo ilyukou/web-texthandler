@@ -1,4 +1,5 @@
-package servlets.data;
+package servlets;
+
 import Database.Database;
 import Database.DatabaseSwitcher;
 import com.google.gson.Gson;
@@ -13,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class DataServlets extends HttpServlet{
+public class SortServlets extends HttpServlet {
 
     private Gson gson = new Gson();
     private Database database = DatabaseSwitcher.getDatabase();
@@ -24,7 +25,7 @@ public class DataServlets extends HttpServlet{
         resp.addHeader("Access-Control-Allow-Origin","*");
         PrintWriter writer = resp.getWriter();
 
-        Text text = database.getData();
+        Text text = Text.sortTextSentencesByLengthOfWords(database.getData());
         Response response;
 
         if(text != null){
@@ -35,7 +36,5 @@ public class DataServlets extends HttpServlet{
 
         String responseJsonString = gson.toJson(response);
         writer.println(responseJsonString);
-
     }
-
 }

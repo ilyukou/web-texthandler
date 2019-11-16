@@ -1,4 +1,4 @@
-package servlets.upload;
+package servlets;
 
 import Database.Database;
 import Database.DatabaseSwitcher;

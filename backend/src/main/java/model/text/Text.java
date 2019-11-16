@@ -2,6 +2,8 @@ package model.text;
 
 import model.SplitUtils;
 
+import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class Text {
@@ -13,6 +15,23 @@ public class Text {
 
     }
 
+    private static List<Sentence> compare(List<Sentence> sentences){
+        final Comparator<Sentence> COMPARATOR = Comparator.comparing(Sentence::getCountOfTextElements);
+        sentences.sort(COMPARATOR);
+        return sentences;
+    }
+    public static Text sortTextSentencesByLengthOfWords(Text text){
+
+        List<Sentence> sentences = new ArrayList<>();
+        for (Paragraph paragraph : text.getParagraphs()){
+            sentences.addAll(paragraph.getSentenceList());
+        }
+
+        List<Paragraph> sortedSentenceInParagraph = new ArrayList<>();
+        sortedSentenceInParagraph.add(new Paragraph(compare(sentences)));
+
+        return new Text(sortedSentenceInParagraph);
+    }
 
     private List<Paragraph> paragraphs;
 
@@ -34,5 +53,9 @@ public class Text {
 
         return stringBuilder.toString();
 
+    }
+
+    public void setParagraphs(List<Paragraph> paragraphs) {
+        this.paragraphs = paragraphs;
     }
 }

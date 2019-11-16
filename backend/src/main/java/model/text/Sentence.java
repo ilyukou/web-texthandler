@@ -3,9 +3,11 @@ package model.text;
 import model.text.textElement.TextElement;
 import model.text.textElement.TextElementType;
 
+import java.util.Comparator;
 import java.util.List;
 
 public class Sentence {
+
     private List<TextElement> textElements;
 
 

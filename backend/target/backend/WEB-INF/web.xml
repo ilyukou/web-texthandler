@@ -8,7 +8,7 @@
   <!-- DataServlets -->
   <servlet>
     <servlet-name>DataServlets</servlet-name>
-    <servlet-class>servlets.data.DataServlets</servlet-class>
+    <servlet-class>servlets.DataServlets</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>DataServlets</servlet-name>
@@ -18,10 +18,20 @@
     <!-- UploadServlets -->
     <servlet>
         <servlet-name>UploadServlets</servlet-name>
-        <servlet-class>servlets.upload.UploadServlets</servlet-class>
+        <servlet-class>servlets.UploadServlets</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>UploadServlets</servlet-name>
         <url-pattern>/upload</url-pattern>
+    </servlet-mapping>
+
+    <!-- UploadServlets -->
+    <servlet>
+        <servlet-name>SortServlets</servlet-name>
+        <servlet-class>servlets.SortServlets</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SortServlets</servlet-name>
+        <url-pattern>/sort</url-pattern>
     </servlet-mapping>
 </web-app>
