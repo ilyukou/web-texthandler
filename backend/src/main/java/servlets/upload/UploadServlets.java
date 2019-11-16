@@ -22,49 +22,48 @@ public class UploadServlets extends HttpServlet {
     private Database database = DatabaseSwitcher.getDatabase();
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
         System.out.println("POST http req");
+
         // fix cors polity
         resp.addHeader("Access-Control-Allow-Origin","*");
+
         if(ServletFileUpload.isMultipartContent(req)){
+
+            System.out.println("isMultipartContent");
             // Create a new file upload handler
             ServletFileUpload upload = new ServletFileUpload();
 
-            // Parse the request
-            FileItemIterator iter = null;
             try {
-                iter = upload.getItemIterator(req);
-            } catch (FileUploadException e) {
+
+                // Parse the request
+                FileItemIterator iter = upload.getItemIterator(req);
+
+                while (true) {
+                    System.out.println("while");
+                    if (!iter.hasNext()) break;
+
+                    FileItemStream item = iter.next();;
+
+                    String name = item.getFieldName();
+                    InputStream stream = item.openStream();
+
+                    if (item.isFormField()) {
+
+                        String str = Streams.asString(stream);
+
+                        System.out.println("POST STRING");
+                        System.out.println(str);
+
+                        database.setData(new Text().build(str));
+                    } else {
+                        System.out.println("File field " + name + " with file name "
+                                + item.getName() + " detected.");
+                    }
+                }
+            }catch (FileUploadException e){
                 e.printStackTrace();
             }
-            while (true) {
-                try {
-                    if (!iter.hasNext()) break;
-                } catch (FileUploadException e) {
-                    e.printStackTrace();
-                }
-                FileItemStream item = null;
-                try {
-                    item = iter.next();
-                } catch (FileUploadException e) {
-                    e.printStackTrace();
-                }
-
-                String name = item.getFieldName();
-                InputStream stream = item.openStream();
-                if (item.isFormField()) {
-                    String str = Streams.asString(stream);
-
-                    System.out.println("POST STRING");
-                    System.out.println(str);
-
-                    database.setData(new Text().build(str));
-                } else {
-                    System.out.println("File field " + name + " with file name "
-                            + item.getName() + " detected.");
-
-                }
-            }
         }
-
     }
 }
