@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Form.css';
+
 import Text from "./Text";
 
 class Form extends Component {
@@ -42,10 +42,10 @@ class Form extends Component {
 
         var FormDiv =
             <div className="Form">
-                <form onSubmit={this.postDataToServlet}>
-                    <label htmlFor="uploadText">Enter text</label>
+                <form id="form"onSubmit={this.postDataToServlet}>
                     <input id="uploadText" name="text" type="text" />
-
+                    <span id="spanEnterText" htmlFor="uploadText">Enter text</span>
+                    <span id="spanEnterTextBorder" className="border"></span>
                     <button>Send text!</button>
                 </form>
             </div>;

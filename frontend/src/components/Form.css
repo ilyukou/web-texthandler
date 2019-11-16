@@ -1,4 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+.Form{
+
+}
 #uploadText {
+    height: 200px;
+    width: 50%;
+}
+#spanEnterText {
+    height: 200px;
+    width: 50%;
+}
+
+#spanEnterTextBorder {
     height: 200px;
     width: 50%;
 }
