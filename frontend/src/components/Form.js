@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import './Form.css';
+import Text from "./Text";
 
 class Form extends Component {
     constructor(props) {
@@ -37,6 +39,7 @@ class Form extends Component {
 
 
     render() {
+
         var FormDiv =
             <div className="Form">
                 <form onSubmit={this.postDataToServlet}>
@@ -56,7 +59,7 @@ class Form extends Component {
                 </div>
             );
         }else {
-            if(this.state.json == null || this.state.json.text == null){
+            if(this.state.json == null || this.state.json.response == null){
                 return (
                     <div>
                         {FormDiv}
@@ -69,7 +72,7 @@ class Form extends Component {
                     <div className="Data">
                         {FormDiv}
                         <ul>json.status : {this.state.json.status}</ul>
-                        <ul>json.text.text : {this.state.json.text.text}</ul>
+                        <Text value={this.state.json.response}/>
                     </div>
                 );
             }

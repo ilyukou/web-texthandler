@@ -1,0 +1,43 @@
+.Text {
+
+}
+.paragraphs {
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #fffebb;
+}
+
+.sentence {
+    background-color: #fae0ba;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.textElement {
+    text-align: center;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 3px;
+    margin: 3px;
+}
+.textElement:hover{
+    text-align: center;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 3px;
+    margin: 3px;
+    transition: 300ms;
+    font-weight: bold;
+}
+
+.Word {
+    background-color: #cbdbeb;
+}
+
+.PunctuationMark {
+    background-color: #d3d9ad;
+}
+
+.PunctuationMarkForEndOfLine{
+    background-color: #ecd8d7;
+}

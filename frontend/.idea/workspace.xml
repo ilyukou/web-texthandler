@@ -9,13 +9,52 @@
       <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/web-texthandler.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/frontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RefreshDataComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/Database/FileDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/model/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/model/SplitUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/model/text/Paragraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/model/text/Sentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/model/text/textElement/TextElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/model/text/textElement/TextElementType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/main/resources/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/main/resources/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Text.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/Database/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/Database/Database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/Database/DatabaseSwitcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/Database/DatabaseSwitcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/Database/HeapDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/Database/HeapDatabase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/model/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/model/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/model/Text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/servlets/data/DataServlets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/servlets/data/DataServlets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/servlets/upload/UploadServlets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/servlets/upload/UploadServlets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/Database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/Database/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/Database/DatabaseSwitcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/Database/DatabaseSwitcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/Database/HeapDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/Database/HeapDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/model/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/model/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/model/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/model/text/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/servlets/data/DataServlets.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/servlets/data/DataServlets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/servlets/upload/UploadServlets.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/servlets/upload/UploadServlets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/target/backend.war" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/Database/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/Database/Database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/Database/DatabaseSwitcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/Database/DatabaseSwitcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/Database/HeapDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/Database/HeapDatabase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/model/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/model/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/model/Text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/servlets/data/DataServlets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/servlets/data/DataServlets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/servlets/upload/UploadServlets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/servlets/upload/UploadServlets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/Database/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/classes/Database/Database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/Database/DatabaseSwitcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/classes/Database/DatabaseSwitcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/Database/HeapDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/classes/Database/HeapDatabase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/model/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/classes/model/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/model/Text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/servlets/data/DataServlets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/classes/servlets/data/DataServlets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/servlets/upload/UploadServlets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/classes/servlets/upload/UploadServlets.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/upload/UploadForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/upload/UploadForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RefreshDataComponent.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +68,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -44,13 +84,22 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -78,7 +127,13 @@
       <workItem from="1573649750696" duration="294000" />
       <workItem from="1573650804774" duration="7000" />
       <workItem from="1573747277130" duration="7839000" />
-      <workItem from="1573799468633" duration="2595000" />
+      <workItem from="1573799468633" duration="2672000" />
+      <workItem from="1573821358726" duration="784000" />
+      <workItem from="1573822225458" duration="1172000" />
+      <workItem from="1573830764994" duration="26000" />
+      <workItem from="1573841622110" duration="7814000" />
+      <workItem from="1573881017908" duration="5825000" />
+      <workItem from="1573910324873" duration="380000" />
     </task>
     <servers />
   </component>

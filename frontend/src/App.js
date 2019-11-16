@@ -1,6 +1,6 @@
 import React from 'react';
-import Data from "./components/data/Data";
-import UploadForm from "./components/upload/UploadForm";
+import "./App.css";
+
 import Form from "./components/Form";
 function App() {
   return (

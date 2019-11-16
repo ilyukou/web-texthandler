@@ -1,0 +1,1759 @@
+{
+  "status": "ok",
+  "response": {
+    "paragraphs": [
+      {
+        "sentenceList": [
+          {
+            "textElements": [
+              {
+                "textElementType": "Word",
+                "value": "\tIt"
+              },
+              {
+                "textElementType": "Word",
+                "value": "was"
+              },
+              {
+                "textElementType": "Word",
+                "value": "a"
+              },
+              {
+                "textElementType": "Word",
+                "value": "cold"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "dreary"
+              },
+              {
+                "textElementType": "Word",
+                "value": "day"
+              },
+              {
+                "textElementType": "Word",
+                "value": "and"
+              },
+              {
+                "textElementType": "Word",
+                "value": "the"
+              },
+              {
+                "textElementType": "Word",
+                "value": "country"
+              },
+              {
+                "textElementType": "Word",
+                "value": "was"
+              },
+              {
+                "textElementType": "Word",
+                "value": "white"
+              },
+              {
+                "textElementType": "Word",
+                "value": "with"
+              },
+              {
+                "textElementType": "Word",
+                "value": "snow"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "causing"
+              },
+              {
+                "textElementType": "Word",
+                "value": "the"
+              },
+              {
+                "textElementType": "Word",
+                "value": "sparsely"
+              },
+              {
+                "textElementType": "Word",
+                "value": "settled"
+              },
+              {
+                "textElementType": "Word",
+                "value": "village"
+              },
+              {
+                "textElementType": "Word",
+                "value": "of"
+              },
+              {
+                "textElementType": "Word",
+                "value": "Hickorytown"
+              },
+              {
+                "textElementType": "Word",
+                "value": "to"
+              },
+              {
+                "textElementType": "Word",
+                "value": "look"
+              },
+              {
+                "textElementType": "Word",
+                "value": "even"
+              },
+              {
+                "textElementType": "Word",
+                "value": "more"
+              },
+              {
+                "textElementType": "Word",
+                "value": "desolate"
+              },
+              {
+                "textElementType": "Word",
+                "value": "than"
+              },
+              {
+                "textElementType": "Word",
+                "value": "usual"
+              },
+              {
+                "textElementType": "PunctuationMarkForEndOfLine",
+                "value": "."
+              }
+            ]
+          },
+          {
+            "textElements": [
+              {
+                "textElementType": "Word",
+                "value": "Old"
+              },
+              {
+                "textElementType": "Word",
+                "value": "Deacon"
+              },
+              {
+                "textElementType": "Word",
+                "value": "Joshua"
+              },
+              {
+                "textElementType": "Word",
+                "value": "Marlowe"
+              },
+              {
+                "textElementType": "Word",
+                "value": "and"
+              },
+              {
+                "textElementType": "Word",
+                "value": "his"
+              },
+              {
+                "textElementType": "Word",
+                "value": "wife"
+              },
+              {
+                "textElementType": "Word",
+                "value": "were"
+              },
+              {
+                "textElementType": "Word",
+                "value": "seated"
+              },
+              {
+                "textElementType": "Word",
+                "value": "in"
+              },
+              {
+                "textElementType": "Word",
+                "value": "the"
+              },
+              {
+                "textElementType": "Word",
+                "value": "dingy"
+              },
+              {
+                "textElementType": "Word",
+                "value": "kitchen"
+              },
+              {
+                "textElementType": "Word",
+                "value": "of"
+              },
+              {
+                "textElementType": "Word",
+                "value": "the"
+              },
+              {
+                "textElementType": "Word",
+                "value": "old"
+              },
+              {
+                "textElementType": "Word",
+                "value": "farmhouse"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "and"
+              },
+              {
+                "textElementType": "Word",
+                "value": "it"
+              },
+              {
+                "textElementType": "Word",
+                "value": "was"
+              },
+              {
+                "textElementType": "Word",
+                "value": "plainly"
+              },
+              {
+                "textElementType": "Word",
+                "value": "to"
+              },
+              {
+                "textElementType": "Word",
+                "value": "be"
+              },
+              {
+                "textElementType": "Word",
+                "value": "seen"
+              },
+              {
+                "textElementType": "Word",
+                "value": "that"
+              },
+              {
+                "textElementType": "Word",
+                "value": "they"
+              },
+              {
+                "textElementType": "Word",
+                "value": "were"
+              },
+              {
+                "textElementType": "Word",
+                "value": "both"
+              },
+              {
+                "textElementType": "Word",
+                "value": "worried"
+              },
+              {
+                "textElementType": "Word",
+                "value": "and"
+              },
+              {
+                "textElementType": "Word",
+                "value": "angry"
+              },
+              {
+                "textElementType": "PunctuationMarkForEndOfLine",
+                "value": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceList": [
+          {
+            "textElements": [
+              {
+                "textElementType": "Word",
+                "value": "The"
+              },
+              {
+                "textElementType": "Word",
+                "value": "farmer?s"
+              },
+              {
+                "textElementType": "Word",
+                "value": "elbows"
+              },
+              {
+                "textElementType": "Word",
+                "value": "were"
+              },
+              {
+                "textElementType": "Word",
+                "value": "on"
+              },
+              {
+                "textElementType": "Word",
+                "value": "his"
+              },
+              {
+                "textElementType": "Word",
+                "value": "knees"
+              },
+              {
+                "textElementType": "Word",
+                "value": "and"
+              },
+              {
+                "textElementType": "Word",
+                "value": "his"
+              },
+              {
+                "textElementType": "Word",
+                "value": "head"
+              },
+              {
+                "textElementType": "Word",
+                "value": "between"
+              },
+              {
+                "textElementType": "Word",
+                "value": "his"
+              },
+              {
+                "textElementType": "Word",
+                "value": "hands"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "and"
+              },
+              {
+                "textElementType": "Word",
+                "value": "as"
+              },
+              {
+                "textElementType": "Word",
+                "value": "he"
+              },
+              {
+                "textElementType": "Word",
+                "value": "sat"
+              },
+              {
+                "textElementType": "Word",
+                "value": "in"
+              },
+              {
+                "textElementType": "Word",
+                "value": "silent"
+              },
+              {
+                "textElementType": "Word",
+                "value": "meditation"
+              },
+              {
+                "textElementType": "Word",
+                "value": "he"
+              },
+              {
+                "textElementType": "Word",
+                "value": "spitefully"
+              },
+              {
+                "textElementType": "Word",
+                "value": "chewed"
+              },
+              {
+                "textElementType": "Word",
+                "value": "a"
+              },
+              {
+                "textElementType": "Word",
+                "value": "long"
+              },
+              {
+                "textElementType": "Word",
+                "value": "wisp"
+              },
+              {
+                "textElementType": "Word",
+                "value": "of"
+              },
+              {
+                "textElementType": "Word",
+                "value": "straw"
+              },
+              {
+                "textElementType": "PunctuationMarkForEndOfLine",
+                "value": "."
+              }
+            ]
+          },
+          {
+            "textElements": [
+              {
+                "textElementType": "Word",
+                "value": "Martha"
+              },
+              {
+                "textElementType": "Word",
+                "value": "Marlowe"
+              },
+              {
+                "textElementType": "Word",
+                "value": "dried"
+              },
+              {
+                "textElementType": "Word",
+                "value": "her"
+              },
+              {
+                "textElementType": "Word",
+                "value": "eyes"
+              },
+              {
+                "textElementType": "Word",
+                "value": "with"
+              },
+              {
+                "textElementType": "Word",
+                "value": "her"
+              },
+              {
+                "textElementType": "Word",
+                "value": "apron"
+              },
+              {
+                "textElementType": "Word",
+                "value": "now"
+              },
+              {
+                "textElementType": "Word",
+                "value": "and"
+              },
+              {
+                "textElementType": "Word",
+                "value": "then"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "and"
+              },
+              {
+                "textElementType": "Word",
+                "value": "finally"
+              },
+              {
+                "textElementType": "Word",
+                "value": "a"
+              },
+              {
+                "textElementType": "Word",
+                "value": "decided"
+              },
+              {
+                "textElementType": "Word",
+                "value": "sniff"
+              },
+              {
+                "textElementType": "Word",
+                "value": "evinced"
+              },
+              {
+                "textElementType": "Word",
+                "value": "to"
+              },
+              {
+                "textElementType": "Word",
+                "value": "her"
+              },
+              {
+                "textElementType": "Word",
+                "value": "husband"
+              },
+              {
+                "textElementType": "Word",
+                "value": "that"
+              },
+              {
+                "textElementType": "Word",
+                "value": "she"
+              },
+              {
+                "textElementType": "Word",
+                "value": "was"
+              },
+              {
+                "textElementType": "Word",
+                "value": "cying"
+              },
+              {
+                "textElementType": "PunctuationMarkForEndOfLine",
+                "value": "."
+              }
+            ]
+          },
+          {
+            "textElements": [
+              {
+                "textElementType": "Word",
+                "value": "Instead"
+              },
+              {
+                "textElementType": "Word",
+                "value": "of"
+              },
+              {
+                "textElementType": "Word",
+                "value": "becoming"
+              },
+              {
+                "textElementType": "Word",
+                "value": "more"
+              },
+              {
+                "textElementType": "Word",
+                "value": "calm"
+              },
+              {
+                "textElementType": "Word",
+                "value": "at"
+              },
+              {
+                "textElementType": "Word",
+                "value": "this"
+              },
+              {
+                "textElementType": "Word",
+                "value": "sign"
+              },
+              {
+                "textElementType": "Word",
+                "value": "of"
+              },
+              {
+                "textElementType": "Word",
+                "value": "his"
+              },
+              {
+                "textElementType": "Word",
+                "value": "wife?s"
+              },
+              {
+                "textElementType": "Word",
+                "value": "grief"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "Deacon"
+              },
+              {
+                "textElementType": "Word",
+                "value": "Marlowe"
+              },
+              {
+                "textElementType": "Word",
+                "value": "raised"
+              },
+              {
+                "textElementType": "Word",
+                "value": "his"
+              },
+              {
+                "textElementType": "Word",
+                "value": "head"
+              },
+              {
+                "textElementType": "Word",
+                "value": "and"
+              },
+              {
+                "textElementType": "Word",
+                "value": "scowled"
+              },
+              {
+                "textElementType": "Word",
+                "value": "at"
+              },
+              {
+                "textElementType": "Word",
+                "value": "her"
+              },
+              {
+                "textElementType": "Word",
+                "value": "angrily"
+              },
+              {
+                "textElementType": "PunctuationMarkForEndOfLine",
+                "value": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceList": [
+          {
+            "textElements": [
+              {
+                "textElementType": "Word",
+                "value": "When"
+              },
+              {
+                "textElementType": "Word",
+                "value": "Tom"
+              },
+              {
+                "textElementType": "Word",
+                "value": "Wilders"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "a"
+              },
+              {
+                "textElementType": "Word",
+                "value": "lean"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "lanky"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "close"
+              },
+              {
+                "textElementType": "Word",
+                "value": "farmer"
+              },
+              {
+                "textElementType": "Word",
+                "value": "from"
+              },
+              {
+                "textElementType": "Word",
+                "value": "his"
+              },
+              {
+                "textElementType": "Word",
+                "value": "own"
+              },
+              {
+                "textElementType": "Word",
+                "value": "town"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "asked"
+              },
+              {
+                "textElementType": "Word",
+                "value": "to"
+              },
+              {
+                "textElementType": "Word",
+                "value": "marry"
+              },
+              {
+                "textElementType": "Word",
+                "value": "Samantha"
+              },
+              {
+                "textElementType": "PunctuationMarkForEndOfLine",
+                "value": ";"
+              }
+            ]
+          },
+          {
+            "textElements": [
+              {
+                "textElementType": "Word",
+                "value": "he"
+              },
+              {
+                "textElementType": "Word",
+                "value": "gave"
+              },
+              {
+                "textElementType": "Word",
+                "value": "her"
+              },
+              {
+                "textElementType": "Word",
+                "value": "to"
+              },
+              {
+                "textElementType": "Word",
+                "value": "him"
+              },
+              {
+                "textElementType": "Word",
+                "value": "without"
+              },
+              {
+                "textElementType": "Word",
+                "value": "a"
+              },
+              {
+                "textElementType": "Word",
+                "value": "word"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "and"
+              },
+              {
+                "textElementType": "Word",
+                "value": "his"
+              },
+              {
+                "textElementType": "Word",
+                "value": "eldest"
+              },
+              {
+                "textElementType": "Word",
+                "value": "daughter"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "who"
+              },
+              {
+                "textElementType": "Word",
+                "value": "inherited"
+              },
+              {
+                "textElementType": "Word",
+                "value": "her"
+              },
+              {
+                "textElementType": "Word",
+                "value": "mother?s"
+              },
+              {
+                "textElementType": "Word",
+                "value": "meekness"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "accepted"
+              },
+              {
+                "textElementType": "Word",
+                "value": "him"
+              },
+              {
+                "textElementType": "Word",
+                "value": "for"
+              },
+              {
+                "textElementType": "Word",
+                "value": "a"
+              },
+              {
+                "textElementType": "Word",
+                "value": "husband"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "knowing"
+              },
+              {
+                "textElementType": "Word",
+                "value": "that"
+              },
+              {
+                "textElementType": "Word",
+                "value": "she"
+              },
+              {
+                "textElementType": "Word",
+                "value": "loathed"
+              },
+              {
+                "textElementType": "Word",
+                "value": "the"
+              },
+              {
+                "textElementType": "Word",
+                "value": "fellow"
+              },
+              {
+                "textElementType": "PunctuationMarkForEndOfLine",
+                "value": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceList": [
+          {
+            "textElements": [
+              {
+                "textElementType": "Word",
+                "value": "Only"
+              },
+              {
+                "textElementType": "Word",
+                "value": "a"
+              },
+              {
+                "textElementType": "Word",
+                "value": "little"
+              },
+              {
+                "textElementType": "Word",
+                "value": "while"
+              },
+              {
+                "textElementType": "Word",
+                "value": "after"
+              },
+              {
+                "textElementType": "Word",
+                "value": "the"
+              },
+              {
+                "textElementType": "Word",
+                "value": "marriage"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "Tom"
+              },
+              {
+                "textElementType": "Word",
+                "value": "Wilders"
+              },
+              {
+                "textElementType": "Word",
+                "value": "called"
+              },
+              {
+                "textElementType": "Word",
+                "value": "on"
+              },
+              {
+                "textElementType": "Word",
+                "value": "the"
+              },
+              {
+                "textElementType": "Word",
+                "value": "deacon"
+              },
+              {
+                "textElementType": "PunctuationMarkForEndOfLine",
+                "value": "."
+              }
+            ]
+          },
+          {
+            "textElements": [
+              {
+                "textElementType": "Word",
+                "value": "His"
+              },
+              {
+                "textElementType": "Word",
+                "value": "interview"
+              },
+              {
+                "textElementType": "Word",
+                "value": "with"
+              },
+              {
+                "textElementType": "Word",
+                "value": "his"
+              },
+              {
+                "textElementType": "Word",
+                "value": "was"
+              },
+              {
+                "textElementType": "Word",
+                "value": "strictly"
+              },
+              {
+                "textElementType": "Word",
+                "value": "private"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "but"
+              },
+              {
+                "textElementType": "Word",
+                "value": "in"
+              },
+              {
+                "textElementType": "Word",
+                "value": "some"
+              },
+              {
+                "textElementType": "Word",
+                "value": "way"
+              },
+              {
+                "textElementType": "Word",
+                "value": "it"
+              },
+              {
+                "textElementType": "Word",
+                "value": "cost"
+              },
+              {
+                "textElementType": "Word",
+                "value": "the"
+              },
+              {
+                "textElementType": "Word",
+                "value": "deacon"
+              },
+              {
+                "textElementType": "Word",
+                "value": "exactly"
+              },
+              {
+                "textElementType": "Word",
+                "value": "five"
+              },
+              {
+                "textElementType": "Word",
+                "value": "hundred"
+              },
+              {
+                "textElementType": "Word",
+                "value": "dollars"
+              },
+              {
+                "textElementType": "PunctuationMarkForEndOfLine",
+                "value": "."
+              }
+            ]
+          },
+          {
+            "textElements": [
+              {
+                "textElementType": "Word",
+                "value": "The"
+              },
+              {
+                "textElementType": "Word",
+                "value": "first"
+              },
+              {
+                "textElementType": "Word",
+                "value": "picture"
+              },
+              {
+                "textElementType": "Word",
+                "value": "was"
+              },
+              {
+                "textElementType": "Word",
+                "value": "that"
+              },
+              {
+                "textElementType": "Word",
+                "value": "of"
+              },
+              {
+                "textElementType": "Word",
+                "value": "a"
+              },
+              {
+                "textElementType": "Word",
+                "value": "tall"
+              },
+              {
+                "textElementType": "Word",
+                "value": "young"
+              },
+              {
+                "textElementType": "Word",
+                "value": "man"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "with"
+              },
+              {
+                "textElementType": "Word",
+                "value": "dark"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "trusting"
+              },
+              {
+                "textElementType": "Word",
+                "value": "eyes"
+              },
+              {
+                "textElementType": "Word",
+                "value": "and"
+              },
+              {
+                "textElementType": "Word",
+                "value": "a"
+              },
+              {
+                "textElementType": "Word",
+                "value": "tender"
+              },
+              {
+                "textElementType": "Word",
+                "value": "smile"
+              },
+              {
+                "textElementType": "Word",
+                "value": "that"
+              },
+              {
+                "textElementType": "Word",
+                "value": "was"
+              },
+              {
+                "textElementType": "Word",
+                "value": "almost"
+              },
+              {
+                "textElementType": "Word",
+                "value": "irresistible"
+              },
+              {
+                "textElementType": "PunctuationMarkForEndOfLine",
+                "value": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceList": [
+          {
+            "textElements": [
+              {
+                "textElementType": "Word",
+                "value": "The"
+              },
+              {
+                "textElementType": "Word",
+                "value": "other"
+              },
+              {
+                "textElementType": "Word",
+                "value": "was"
+              },
+              {
+                "textElementType": "Word",
+                "value": "of"
+              },
+              {
+                "textElementType": "Word",
+                "value": "a"
+              },
+              {
+                "textElementType": "Word",
+                "value": "blonde"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "with"
+              },
+              {
+                "textElementType": "Word",
+                "value": "bright"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "laughing"
+              },
+              {
+                "textElementType": "Word",
+                "value": "blue"
+              },
+              {
+                "textElementType": "Word",
+                "value": "eyes"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "yet"
+              },
+              {
+                "textElementType": "Word",
+                "value": "with"
+              },
+              {
+                "textElementType": "Word",
+                "value": "a"
+              },
+              {
+                "textElementType": "Word",
+                "value": "frankness"
+              },
+              {
+                "textElementType": "Word",
+                "value": "and"
+              },
+              {
+                "textElementType": "Word",
+                "value": "alertness"
+              },
+              {
+                "textElementType": "Word",
+                "value": "of"
+              },
+              {
+                "textElementType": "Word",
+                "value": "expression"
+              },
+              {
+                "textElementType": "Word",
+                "value": "which"
+              },
+              {
+                "textElementType": "Word",
+                "value": "won"
+              },
+              {
+                "textElementType": "Word",
+                "value": "one?s"
+              },
+              {
+                "textElementType": "Word",
+                "value": "confidence"
+              },
+              {
+                "textElementType": "Word",
+                "value": "immediately"
+              },
+              {
+                "textElementType": "PunctuationMarkForEndOfLine",
+                "value": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceList": [
+          {
+            "textElements": [
+              {
+                "textElementType": "Word",
+                "value": "The"
+              },
+              {
+                "textElementType": "Word",
+                "value": "first"
+              },
+              {
+                "textElementType": "Word",
+                "value": "picture"
+              },
+              {
+                "textElementType": "Word",
+                "value": "was"
+              },
+              {
+                "textElementType": "Word",
+                "value": "that"
+              },
+              {
+                "textElementType": "Word",
+                "value": "of"
+              },
+              {
+                "textElementType": "Word",
+                "value": "an"
+              },
+              {
+                "textElementType": "Word",
+                "value": "old"
+              },
+              {
+                "textElementType": "Word",
+                "value": "friend"
+              },
+              {
+                "textElementType": "Word",
+                "value": "who"
+              },
+              {
+                "textElementType": "Word",
+                "value": "was"
+              },
+              {
+                "textElementType": "Word",
+                "value": "now"
+              },
+              {
+                "textElementType": "Word",
+                "value": "abroad"
+              },
+              {
+                "textElementType": "Word",
+                "value": "Mr"
+              },
+              {
+                "textElementType": "Word",
+                "value": "Archibald"
+              },
+              {
+                "textElementType": "Word",
+                "value": "Ray"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "the"
+              },
+              {
+                "textElementType": "Word",
+                "value": "young"
+              },
+              {
+                "textElementType": "Word",
+                "value": "man"
+              },
+              {
+                "textElementType": "Word",
+                "value": "who"
+              },
+              {
+                "textElementType": "Word",
+                "value": "had"
+              },
+              {
+                "textElementType": "Word",
+                "value": "aided"
+              },
+              {
+                "textElementType": "Word",
+                "value": "her"
+              },
+              {
+                "textElementType": "Word",
+                "value": "in"
+              },
+              {
+                "textElementType": "Word",
+                "value": "her"
+              },
+              {
+                "textElementType": "Word",
+                "value": "search"
+              },
+              {
+                "textElementType": "Word",
+                "value": "for"
+              },
+              {
+                "textElementType": "Word",
+                "value": "Dollie"
+              },
+              {
+                "textElementType": "PunctuationMarkForEndOfLine",
+                "value": "."
+              }
+            ]
+          },
+          {
+            "textElements": [
+              {
+                "textElementType": "Word",
+                "value": "The"
+              },
+              {
+                "textElementType": "Word",
+                "value": "other"
+              },
+              {
+                "textElementType": "Word",
+                "value": "was"
+              },
+              {
+                "textElementType": "Word",
+                "value": "that"
+              },
+              {
+                "textElementType": "Word",
+                "value": "of"
+              },
+              {
+                "textElementType": "Word",
+                "value": "Reginald"
+              },
+              {
+                "textElementType": "Word",
+                "value": "Brookes"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "the"
+              },
+              {
+                "textElementType": "Word",
+                "value": "medical"
+              },
+              {
+                "textElementType": "Word",
+                "value": "student"
+              },
+              {
+                "textElementType": "Word",
+                "value": "the"
+              },
+              {
+                "textElementType": "Word",
+                "value": "one"
+              },
+              {
+                "textElementType": "Word",
+                "value": "whom"
+              },
+              {
+                "textElementType": "Word",
+                "value": "her"
+              },
+              {
+                "textElementType": "Word",
+                "value": "friend"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "Miss"
+              },
+              {
+                "textElementType": "Word",
+                "value": "Allyn"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "had"
+              },
+              {
+                "textElementType": "Word",
+                "value": "said"
+              },
+              {
+                "textElementType": "Word",
+                "value": "was"
+              },
+              {
+                "textElementType": "Word",
+                "value": "just"
+              },
+              {
+                "textElementType": "Word",
+                "value": "the"
+              },
+              {
+                "textElementType": "Word",
+                "value": "kind"
+              },
+              {
+                "textElementType": "Word",
+                "value": "of"
+              },
+              {
+                "textElementType": "Word",
+                "value": "a"
+              },
+              {
+                "textElementType": "Word",
+                "value": "man"
+              },
+              {
+                "textElementType": "Word",
+                "value": "that"
+              },
+              {
+                "textElementType": "Word",
+                "value": "she"
+              },
+              {
+                "textElementType": "Word",
+                "value": "should"
+              },
+              {
+                "textElementType": "Word",
+                "value": "marry"
+              },
+              {
+                "textElementType": "PunctuationMarkForEndOfLine",
+                "value": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceList": [
+          {
+            "textElements": [
+              {
+                "textElementType": "Word",
+                "value": "When"
+              },
+              {
+                "textElementType": "Word",
+                "value": "the"
+              },
+              {
+                "textElementType": "Word",
+                "value": "girls"
+              },
+              {
+                "textElementType": "Word",
+                "value": "awoke"
+              },
+              {
+                "textElementType": "Word",
+                "value": "the"
+              },
+              {
+                "textElementType": "Word",
+                "value": "next"
+              },
+              {
+                "textElementType": "Word",
+                "value": "morning"
+              },
+              {
+                "textElementType": "Word",
+                "value": "they"
+              },
+              {
+                "textElementType": "Word",
+                "value": "were"
+              },
+              {
+                "textElementType": "Word",
+                "value": "as"
+              },
+              {
+                "textElementType": "Word",
+                "value": "happy"
+              },
+              {
+                "textElementType": "Word",
+                "value": "as"
+              },
+              {
+                "textElementType": "Word",
+                "value": "larks"
+              },
+              {
+                "textElementType": "PunctuationMarkForEndOfLine",
+                "value": "."
+              }
+            ]
+          },
+          {
+            "textElements": [
+              {
+                "textElementType": "Word",
+                "value": "There"
+              },
+              {
+                "textElementType": "Word",
+                "value": "was"
+              },
+              {
+                "textElementType": "Word",
+                "value": "so"
+              },
+              {
+                "textElementType": "Word",
+                "value": "much"
+              },
+              {
+                "textElementType": "Word",
+                "value": "to"
+              },
+              {
+                "textElementType": "Word",
+                "value": "be"
+              },
+              {
+                "textElementType": "Word",
+                "value": "talked"
+              },
+              {
+                "textElementType": "Word",
+                "value": "over"
+              },
+              {
+                "textElementType": "Word",
+                "value": "in"
+              },
+              {
+                "textElementType": "Word",
+                "value": "regard"
+              },
+              {
+                "textElementType": "Word",
+                "value": "to"
+              },
+              {
+                "textElementType": "Word",
+                "value": "their"
+              },
+              {
+                "textElementType": "Word",
+                "value": "plans"
+              },
+              {
+                "textElementType": "Word",
+                "value": "for"
+              },
+              {
+                "textElementType": "Word",
+                "value": "the"
+              },
+              {
+                "textElementType": "Word",
+                "value": "future"
+              },
+              {
+                "textElementType": "PunctuationMarkForEndOfLine",
+                "value": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceList": [
+          {
+            "textElements": [
+              {
+                "textElementType": "Word",
+                "value": "Miss"
+              },
+              {
+                "textElementType": "Word",
+                "value": "Allyn"
+              },
+              {
+                "textElementType": "Word",
+                "value": "went"
+              },
+              {
+                "textElementType": "Word",
+                "value": "downtown"
+              },
+              {
+                "textElementType": "Word",
+                "value": "to"
+              },
+              {
+                "textElementType": "Word",
+                "value": "her"
+              },
+              {
+                "textElementType": "Word",
+                "value": "work"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "early"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "as"
+              },
+              {
+                "textElementType": "Word",
+                "value": "usual"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "but"
+              },
+              {
+                "textElementType": "Word",
+                "value": "she"
+              },
+              {
+                "textElementType": "Word",
+                "value": "astonished"
+              },
+              {
+                "textElementType": "Word",
+                "value": "the"
+              },
+              {
+                "textElementType": "Word",
+                "value": "girls"
+              },
+              {
+                "textElementType": "Word",
+                "value": "by"
+              },
+              {
+                "textElementType": "Word",
+                "value": "coming"
+              },
+              {
+                "textElementType": "Word",
+                "value": "in"
+              },
+              {
+                "textElementType": "Word",
+                "value": "at"
+              },
+              {
+                "textElementType": "Word",
+                "value": "noon"
+              },
+              {
+                "textElementType": "Word",
+                "value": "and"
+              },
+              {
+                "textElementType": "Word",
+                "value": "bringing"
+              },
+              {
+                "textElementType": "Word",
+                "value": "a"
+              },
+              {
+                "textElementType": "Word",
+                "value": "tall"
+              },
+              {
+                "textElementType": "PunctuationMark",
+                "value": ","
+              },
+              {
+                "textElementType": "Word",
+                "value": "dark"
+              },
+              {
+                "textElementType": "Word",
+                "value": "gentleman"
+              },
+              {
+                "textElementType": "Word",
+                "value": "with"
+              },
+              {
+                "textElementType": "Word",
+                "value": "her"
+              },
+              {
+                "textElementType": "PunctuationMarkForEndOfLine",
+                "value": "."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
