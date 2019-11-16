@@ -4,7 +4,7 @@ import Database.DatabaseSwitcher;
 import com.google.gson.Gson;
 import model.Response;
 import model.ResponseStatus;
-import model.Text;
+import model.text.Text;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

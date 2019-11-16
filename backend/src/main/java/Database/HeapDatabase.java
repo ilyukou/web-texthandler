@@ -1,9 +1,9 @@
 package Database;
 
-import model.Text;
+import model.text.Text;
 
 final class HeapDatabase implements Database {
-    private static Text text = new Text("default value");
+    private static Text text = null;
 
     @Override
     public void setData(Text text) {

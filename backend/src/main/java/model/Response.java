@@ -1,12 +1,14 @@
 package model;
 
+import model.text.Text;
+
 public class Response {
     private ResponseStatus status;
-    private Text text;
+    private Text response;
 
-    public Response(ResponseStatus status, Text text) {
+    public Response(ResponseStatus status, Text response) {
         this.status = status;
-        this.text = text;
+        this.response = response;
     }
 
     public ResponseStatus getStatus() {
@@ -17,11 +19,11 @@ public class Response {
         this.status = status;
     }
 
-    public Text getText() {
-        return text;
+    public Text getResponse() {
+        return response;
     }
 
-    public void setText(Text text) {
-        this.text = text;
+    public void setResponse(Text response) {
+        this.response = response;
     }
 }

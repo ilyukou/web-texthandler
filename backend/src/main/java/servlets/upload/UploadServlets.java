@@ -2,7 +2,7 @@ package servlets.upload;
 
 import Database.Database;
 import Database.DatabaseSwitcher;
-import model.Text;
+import model.text.Text;
 import org.apache.commons.fileupload.FileItemIterator;
 import org.apache.commons.fileupload.FileItemStream;
 import org.apache.commons.fileupload.FileUploadException;
@@ -57,7 +57,7 @@ public class UploadServlets extends HttpServlet {
                     System.out.println("POST STRING");
                     System.out.println(str);
 
-                    database.setData(new Text(str));
+                    database.setData(new Text().build(str));
                 } else {
                     System.out.println("File field " + name + " with file name "
                             + item.getName() + " detected.");

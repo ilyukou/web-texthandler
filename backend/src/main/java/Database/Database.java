@@ -1,6 +1,6 @@
 package Database;
 
-import model.Text;
+import model.text.Text;
 
 public interface Database {
     void setData(Text data);
