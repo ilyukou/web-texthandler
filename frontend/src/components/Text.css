@@ -1,14 +1,15 @@
 .Text {
-
 }
 .paragraphs {
     padding: 10px;
     border-radius: 25px;
-    background-color: #fffebb;
+
+    background-color: #fae0ba;
+    height: 40%;
 }
 
 .sentence {
-    background-color: #fae0ba;
+    background-color: #ecd8d7;
     border-radius: 15px;
     padding: 10px;
 }
@@ -39,5 +40,5 @@
 }
 
 .PunctuationMarkForEndOfLine{
-    background-color: #ecd8d7;
+    background-color: #fffebb;
 }

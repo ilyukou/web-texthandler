@@ -3,7 +3,7 @@ import './Text.css';
 // props is array of paragraphs object from server without response status
 class Text extends Component {
     state = {
-        paragraphs : this.props.value.paragraphs
+        paragraphs : this.props.value.response.paragraphs
     };
 
     getTextDiv(){
