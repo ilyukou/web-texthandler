@@ -8,11 +8,16 @@ import java.util.List;
 
 public class Text {
 
-    public Text build(String text) {
-        return SplitUtils.createText(text);
-    }
-    public Text(){
+    private List<Paragraph> paragraphs;
 
+    public Text(){}
+
+    public Text(String text){
+        this.paragraphs = SplitUtils.createText(text).getParagraphs();
+    }
+
+    public Text(List<Paragraph> paragraphs) {
+        this.paragraphs = paragraphs;
     }
 
     private static List<Sentence> compare(List<Sentence> sentences){
@@ -33,17 +38,7 @@ public class Text {
         return new Text(sortedSentenceInParagraph);
     }
 
-    private List<Paragraph> paragraphs;
-
-    public Text(List<Paragraph> paragraphs) {
-        this.paragraphs = paragraphs;
-    }
-
-    public List<Paragraph> getParagraphs() {
-        return paragraphs;
-    }
-
-    public String getText(){
+    public String getTextAsString(){
 
         StringBuilder stringBuilder = new StringBuilder();
 
@@ -55,7 +50,14 @@ public class Text {
 
     }
 
+
+    public List<Paragraph> getParagraphs() {
+        return paragraphs;
+    }
+
     public void setParagraphs(List<Paragraph> paragraphs) {
         this.paragraphs = paragraphs;
     }
+
+
 }

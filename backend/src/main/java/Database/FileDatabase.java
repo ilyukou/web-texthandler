@@ -11,11 +11,11 @@ public class FileDatabase implements Database{
 
     private static final String filePath = "/home/ilya/Desktop/Code/web-texthandler/backend/src/main/resources/file.txt";
     @Override
-    public void setText(Text data) {
+    public void setText(Text data, String filePath) {
         try {
             FileWriter fileWriter = new FileWriter(filePath);
 
-            fileWriter.write(data.getText());
+            fileWriter.write(data.getTextAsString());
 
             fileWriter.close();
         }catch (Exception e){
@@ -24,7 +24,12 @@ public class FileDatabase implements Database{
     }
 
     @Override
-    public Text getText() {
+    public Text getText(String filePath) {
+        return SplitUtils.createText(getRawContentAsString(filePath));
+    }
+
+    @Override
+    public String getRawContentAsString(String filePath) {
         StringBuilder content = new StringBuilder();
         try {
             BufferedReader br = new BufferedReader(new FileReader(filePath));
@@ -39,6 +44,6 @@ public class FileDatabase implements Database{
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return SplitUtils.createText(content.toString());
+        return content.toString();
     }
 }

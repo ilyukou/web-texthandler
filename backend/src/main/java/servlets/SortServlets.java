@@ -18,14 +18,15 @@ public class SortServlets extends HttpServlet {
 
     private Gson gson = new Gson();
     private Database database = DatabaseSwitcher.getDatabase();
-
+    //private String filePath = "/home/ilya/Desktop/Code/web-texthandler/backend/src/main/resources/file.txt";
+    private String filePath = "src/main/resources/file.txt";
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // fix cors polity
         resp.addHeader("Access-Control-Allow-Origin","*");
         PrintWriter writer = resp.getWriter();
 
-        Text text = Text.sortTextSentencesByLengthOfWords(database.getText());
+        Text text = Text.sortTextSentencesByLengthOfWords(database.getText(filePath));
         Response response;
 
         if(text != null){

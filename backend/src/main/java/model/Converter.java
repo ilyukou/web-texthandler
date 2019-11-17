@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Converter {
 
-    public static List<Sentence> convert(List<String> paragraphStringList){
+    public static List<Sentence> convertListOfStringTextElementToListSentence(List<String> sentenceStringList){
 
         List<List<String>> sentencesStringList = new ArrayList<>();
 
@@ -17,13 +17,13 @@ public class Converter {
          * Разбиение листа строк ( слово или знак препинания) абзаца на лист предложения содержащий лист строк.
          */
         int from = 0;
-        for (int i=0; i<paragraphStringList.size(); i++){
+        for (int i=0; i<sentenceStringList.size(); i++){
             for (String s : TextElement.getPunctuationMarkForEndOfLine()){
-                if (paragraphStringList.get(i).equals(s)){
+                if (sentenceStringList.get(i).equals(s)){
                     /**
                      * 1 потому что я хочу сохранить точку
                      */
-                    sentencesStringList.add(getListOfStrings(paragraphStringList,from,i+1));
+                    sentencesStringList.add(getListOfStrings(sentenceStringList,from,i+1));
 
                     from = i+1;
                 }
@@ -45,28 +45,32 @@ public class Converter {
 
         for (List<String> list : sentencesStringList){
 
-            List<TextElement> textElements = new ArrayList<>();
-
-            for (String string : list){
-
-                switch (TextElement.getTypeOfElement(string)){
-                    case Word:
-                        textElements.add(new TextElement(string, TextElementType.Word));
-                        break;
-                    case PunctuationMark:
-                        textElements.add(new TextElement(string, TextElementType.PunctuationMark));
-                        break;
-                    case PunctuationMarkForEndOfLine:
-                        textElements.add(new TextElement(string, TextElementType.PunctuationMarkForEndOfLine));
-                        break;
-                    default:
-                        throw new IllegalArgumentException("Not found correct TextElementType for "+string);
-
-                }
-            }
-            sentences.add(new Sentence(textElements));
+            sentences.add(convertFromTextElementListToSentence(list));
         }
 
         return sentences;
+    }
+
+    private static Sentence convertFromTextElementListToSentence(List<String> list){
+        List<TextElement> textElements = new ArrayList<>();
+
+        for (String string : list){
+
+            switch (TextElement.getTypeOfElement(string)){
+                case Word:
+                    textElements.add(new TextElement(string, TextElementType.Word));
+                    break;
+                case PunctuationMark:
+                    textElements.add(new TextElement(string, TextElementType.PunctuationMark));
+                    break;
+                case PunctuationMarkForEndOfLine:
+                    textElements.add(new TextElement(string, TextElementType.PunctuationMarkForEndOfLine));
+                    break;
+                default:
+                    throw new IllegalArgumentException("Not found correct TextElementType for "+string);
+
+            }
+        }
+        return new Sentence(textElements);
     }
 }

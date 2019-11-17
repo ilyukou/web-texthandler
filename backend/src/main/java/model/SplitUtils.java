@@ -1,6 +1,5 @@
 package model;
 
-
 import model.text.Paragraph;
 import model.text.Sentence;
 import model.text.Text;
@@ -29,10 +28,10 @@ public final class SplitUtils {
             throw new IllegalArgumentException("String is blank");
         }
 
-        return new Text(getParagraphsFromText(content));
+        return new Text(getParagraphsFromString(content));
     }
 
-    public static List<Paragraph> getParagraphsFromText(String text){
+    public static List<Paragraph> getParagraphsFromString(String text){
 
         List<Paragraph> paragraphs = new ArrayList<Paragraph>();
         List<String> paragraphStrings = splitTextByParagraphsString(text);
@@ -46,29 +45,28 @@ public final class SplitUtils {
     public static List<Sentence> getSentencesFromParagraphString(String paragraph){
 
         List<String> strings = splitParagraphStringBySentenceStrings(paragraph);
-
-        return Converter.convert(strings);
+        System.out.println();
+        return Converter.convertListOfStringTextElementToListSentence(strings);
     }
 
 
     private static List<String> splitTextByParagraphsString(String text) throws IllegalArgumentException {
-        validate(text);
+        if(StringUtils.isBlank(text)){
+            throw new IllegalArgumentException("String is null or length 0");
+        }
+
         List<String> list = removeBlankString(Arrays.asList(text.split(regExForSplitTextByParagraphs)));
 
         return list;
     }
 
     private static List<String> splitParagraphStringBySentenceStrings(String text) throws IllegalArgumentException {
-        validate(text);
+        if(StringUtils.isBlank(text)){
+            throw new IllegalArgumentException("String is null or length 0");
+        }
         List<String> list = Arrays.asList(text.split(regExForSplitBySentences));
         System.out.println();
         return removeBlankString(list);
-    }
-
-    private static void validate(String text) throws IllegalArgumentException {
-        if (StringUtils.isBlank(text)) {
-            throw new IllegalArgumentException("String is null or length 0");
-        }
     }
 
     private static List<String> removeBlankString(List<String> list) {

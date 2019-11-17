@@ -1,15 +1,15 @@
 package Database;
 
 public final class DatabaseSwitcher {
-    private static Database heapDatabase = new HeapDatabase();
+
     private static Database fileDatabase = new FileDatabase();
 
-    public static Database getDatabase(){
+    public static Database getDatabase() {
         boolean condition = true;
 
-        if(condition){
+        if (condition) {
             return fileDatabase;
         }
-        return heapDatabase;
+        throw new IllegalArgumentException("Not Found correct Database");
     }
 }

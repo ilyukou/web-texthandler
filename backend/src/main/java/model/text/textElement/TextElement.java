@@ -37,6 +37,7 @@ public class TextElement {
     }
 
     public static TextElementType getTypeOfElement(String value){
+        // how to rewrite this ?
         for (String marks : PUNCTUATION_MARKS){
             if(marks.equals(value)){
                 return TextElementType.PunctuationMark;

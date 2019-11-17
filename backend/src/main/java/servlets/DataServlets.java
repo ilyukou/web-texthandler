@@ -23,6 +23,8 @@ public class DataServlets extends HttpServlet{
 
     private Gson gson = new Gson();
     private Database database = DatabaseSwitcher.getDatabase();
+    //private String filePath = "/home/ilya/Desktop/Code/web-texthandler/backend/src/main/resources/file.txt";
+    private String filePath = "src/main/resources/file.txt";
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -30,7 +32,7 @@ public class DataServlets extends HttpServlet{
         resp.addHeader("Access-Control-Allow-Origin","*");
         PrintWriter writer = resp.getWriter();
 
-        Text text = database.getText();
+        Text text = database.getText(filePath);
         Response response;
 
         if(text != null){
@@ -79,7 +81,7 @@ public class DataServlets extends HttpServlet{
                         System.out.println("POST STRING");
                         System.out.println(str);
 
-                        database.setText(new Text().build(str));
+                        database.setText(new Text(str),filePath);
                     } else {
 
                         System.out.println("File field " + name + " with file name "
