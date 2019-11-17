@@ -25,7 +25,7 @@ public class SortServlets extends HttpServlet {
         resp.addHeader("Access-Control-Allow-Origin","*");
         PrintWriter writer = resp.getWriter();
 
-        Text text = Text.sortTextSentencesByLengthOfWords(database.getData());
+        Text text = Text.sortTextSentencesByLengthOfWords(database.getText());
         Response response;
 
         if(text != null){

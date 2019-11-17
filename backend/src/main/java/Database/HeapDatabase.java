@@ -6,12 +6,12 @@ final class HeapDatabase implements Database {
     private static Text text = null;
 
     @Override
-    public void setData(Text text) {
+    public void setText(Text text) {
         HeapDatabase.text = text;
     }
 
     @Override
-    public Text getData(){
+    public Text getText(){
         return HeapDatabase.text;
     }
 }

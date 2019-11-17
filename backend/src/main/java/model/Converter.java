@@ -49,16 +49,19 @@ public class Converter {
 
             for (String string : list){
 
-                if(TextElement.getTypeOfElement(string) == TextElementType.PunctuationMark){
-                    textElements.add(new TextElement(string, TextElementType.PunctuationMark));
+                switch (TextElement.getTypeOfElement(string)){
+                    case Word:
+                        textElements.add(new TextElement(string, TextElementType.Word));
+                        break;
+                    case PunctuationMark:
+                        textElements.add(new TextElement(string, TextElementType.PunctuationMark));
+                        break;
+                    case PunctuationMarkForEndOfLine:
+                        textElements.add(new TextElement(string, TextElementType.PunctuationMarkForEndOfLine));
+                        break;
+                    default:
+                        throw new IllegalArgumentException("Not found correct TextElementType for "+string);
 
-                }else if(TextElement.getTypeOfElement(string) == TextElementType.Word) {
-                    textElements.add(new TextElement(string, TextElementType.Word));
-
-                }else if(TextElement.getTypeOfElement(string) == TextElementType.PunctuationMarkForEndOfLine) {
-                    textElements.add(new TextElement(string, TextElementType.PunctuationMarkForEndOfLine));
-                }else {
-                    throw new IllegalArgumentException("Not found correct TextElementType for "+string);
                 }
             }
             sentences.add(new Sentence(textElements));

@@ -11,7 +11,7 @@ public class FileDatabase implements Database{
 
     private static final String filePath = "/home/ilya/Desktop/Code/web-texthandler/backend/src/main/resources/file.txt";
     @Override
-    public void setData(Text data) {
+    public void setText(Text data) {
         try {
             FileWriter fileWriter = new FileWriter(filePath);
 
@@ -24,7 +24,7 @@ public class FileDatabase implements Database{
     }
 
     @Override
-    public Text getData() {
+    public Text getText() {
         String content = "";
         try {
             BufferedReader br = new BufferedReader(new FileReader(filePath));

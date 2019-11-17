@@ -15,17 +15,7 @@
     <url-pattern>/data</url-pattern>
   </servlet-mapping>
 
-    <!-- UploadServlets -->
-    <servlet>
-        <servlet-name>UploadServlets</servlet-name>
-        <servlet-class>servlets.UploadServlets</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>UploadServlets</servlet-name>
-        <url-pattern>/upload</url-pattern>
-    </servlet-mapping>
-
-    <!-- UploadServlets -->
+    <!-- SortServlets -->
     <servlet>
         <servlet-name>SortServlets</servlet-name>
         <servlet-class>servlets.SortServlets</servlet-class>

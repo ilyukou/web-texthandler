@@ -38,12 +38,12 @@ public final class SplitUtils {
         List<String> paragraphStrings = splitTextByParagraphsString(text);
 
         for (String string : paragraphStrings){
-            paragraphs.add(new Paragraph(getSentences(string)));
+            paragraphs.add(new Paragraph(getSentencesFromParagraphString(string)));
         }
         return paragraphs;
     }
 
-    public static List<Sentence> getSentences(String paragraph){
+    public static List<Sentence> getSentencesFromParagraphString(String paragraph){
 
         List<String> strings = splitParagraphStringBySentenceStrings(paragraph);
 
