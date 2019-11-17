@@ -22,13 +22,13 @@ class FileDatabaseTest {
     // how it's are testing ?
     @Test
     void setText() {
-        fileDatabase.setText(new Text(textAsString),databaseFileTestPath);
+        fileDatabase.saveText(new Text(textAsString),databaseFileTestPath);
     }
 
     @Test
     void getText() {
         assertEquals(new Text(textAsString).getTextAsString(),
-                fileDatabase.getText(databaseFileTestPath).getTextAsString());
+                fileDatabase.findText(databaseFileTestPath).getTextAsString());
     }
 
     @Test

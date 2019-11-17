@@ -2,14 +2,9 @@ package model.text;
 
 import Database.Database;
 import Database.DatabaseSwitcher;
-import model.SplitUtils;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.runner.RunWith;
-
-import static org.junit.Assert.*;
 
 public class TextTest {
     private Text text;
@@ -20,7 +15,7 @@ public class TextTest {
     public void setUp() throws Exception {
         filePath = "/home/ilya/Desktop/Code/web-texthandler/backend/src/test/resources/text.txt";
         database = DatabaseSwitcher.getDatabase();
-        text = database.getText(filePath);
+        text = database.findText(filePath);
     }
 
     @Test

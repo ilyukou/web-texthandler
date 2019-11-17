@@ -22,7 +22,7 @@ class SentenceTest {
         textElements.add(new TextElement("are", TextElementType.Word));
         textElements.add(new TextElement("you", TextElementType.Word));
         textElements.add(new TextElement("name", TextElementType.Word));
-        textElements.add(new TextElement("?", TextElementType.PunctuationMarkForEndOfLine));
+        textElements.add(new TextElement("?", TextElementType.PunctuationMarkForEndOfSentence));
     }
 
     @Test

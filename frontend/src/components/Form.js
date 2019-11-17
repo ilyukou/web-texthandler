@@ -11,26 +11,34 @@ class Form extends Component {
 
         this.state = {
             loading : true,
-            json : null
+            json : null,
+            errorTextArea : false
         };
 
     }
 
     postDataToServlet(event) {
         event.preventDefault();
-        //const data = document.getElementById('field5').value;
-        const data = new FormData(event.target);
-        fetch('http://localhost:8083/backend/data', {
-            mode : 'cors',
-            method: 'POST',
-            body: data
-        });
 
-        this.setState({json : this.getDataFromServlet(), loading : false});
+        if(document.getElementById('field5').value === ""){
+            console.log("empty");
+            this.setState({json : null, errorTextArea : true});
+        }else {
+            this.setState({errorTextArea : false});
+            const data = new FormData(event.target);
+
+            fetch('http://localhost:8083/backend/data', {
+                mode : 'cors',
+                method: 'POST',
+                body: data
+            });
+
+            //this.setState({json : this.getDataFromServlet(), loading : false});
+        }
     }
 
     async getDataFromServlet() {
-        this.setState({loading : true});
+        this.setState({loading : true, errorTextArea : false});
         const url = "http://localhost:8083/backend/data";
 
         const response = await fetch(url,{mode : 'cors'});
@@ -40,7 +48,8 @@ class Form extends Component {
         this.setState({json : data, loading : false});
     }
     async getSortedDataFromServlet(){
-        this.setState({loading : true});
+
+        this.setState({loading : true, errorTextArea : false});
         const url = "http://localhost:8083/backend/sort";
 
         const response = await fetch(url,{mode : 'cors'});
@@ -52,10 +61,15 @@ class Form extends Component {
 
     render() {
         var buttonGetData = <button className="btn" type="button"
-                                    onClick={this.getDataFromServlet}>Get Data</button>;
+                                    onClick={this.getDataFromServlet}>Get</button>;
         var buttonGetSortedData = <button className="btn btn-second" type="button"
-                                          onClick={this.getSortedDataFromServlet}>Get Sorted Data</button>;
-        //  onSubmit={this.postDataToServlet}
+                                          onClick={this.getSortedDataFromServlet}>Get Sorted</button>;
+        if(this.state.errorTextArea === true){
+            var error = <div className="textAreaIsEmpty">TextArea value is empty</div>;
+        }else {
+            var error = <div></div>;
+        }
+
         var form = <form onSubmit={this.postDataToServlet} >
             <ul className="form-style-1">
                 <li>
@@ -68,14 +82,11 @@ class Form extends Component {
                     {buttonGetData}
                     {buttonGetSortedData}
                 </li>
+                <li>{error}</li>
             </ul>
         </form>;
 
-        // var buttonGetData = <input className="form-style-1" type="submit"
-        //                             onClick={this.getDataFromServlet} value="Get Data"/>;
-        // var buttonGetSortedData = <input className="form-style-1" type="submit"
-        //                                   onClick={this.getSortedDataFromServlet} value="Get Sorted Data"/>;
-        if(this.state.json == null || this.state.json.response == null){
+      if(this.state.json == null || this.state.json.response == null){
             return(
                 <div className="NewForm">
                     {form}

@@ -47,6 +47,10 @@ p.paragraphs {
     background-color: #d3d9ad;
 }
 
-.PunctuationMarkForEndOfLine{
+.PunctuationMarkForEndOfSentence{
     background-color: #fffebb;
+}
+
+.errorGetText{
+    color: red;
 }

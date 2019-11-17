@@ -29,6 +29,13 @@ class Text extends Component {
     }
 
     render() {
+        if(this.state.paragraphs == null){
+            return (
+                <div className="Text errorGetText">
+                    Text from server is empty
+                </div>
+            );
+        }
         if(this.state.paragraphs === undefined){
             return (
                 <div className="Text">

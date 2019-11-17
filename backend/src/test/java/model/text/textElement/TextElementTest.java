@@ -1,10 +1,7 @@
 package model.text.textElement;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class TextElementTest {
 
@@ -18,6 +15,6 @@ class TextElementTest {
     }
     @Test
     void getTypeOfElement_whenElementsIsPunctuationMarkForEndOfLine() {
-        Assertions.assertEquals(TextElementType.PunctuationMarkForEndOfLine, TextElement.getTypeOfElement("."));
+        Assertions.assertEquals(TextElementType.PunctuationMarkForEndOfSentence, TextElement.getTypeOfElement("."));
     }
 }

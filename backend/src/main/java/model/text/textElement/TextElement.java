@@ -45,7 +45,7 @@ public class TextElement {
         }
         for (String marks : PUNCTUATION_MARK_FOR_END_OF_LINE){
             if(marks.equals(value)){
-                return TextElementType.PunctuationMarkForEndOfLine;
+                return TextElementType.PunctuationMarkForEndOfSentence;
             }
         }
         return TextElementType.Word;

@@ -1,12 +1,12 @@
 import Database.Database;
 import Database.DatabaseSwitcher;
-import model.SplitUtils;
 import model.text.Text;
+import utils.Parser;
 
 public class Main {
     public static void main(String[] args) {
         Database db = DatabaseSwitcher.getDatabase();
-        Text text = SplitUtils
+        Text text = Parser
                 .createText(
                         db.getRawContentAsString
                                 ("src/main/resources/file.txt"));

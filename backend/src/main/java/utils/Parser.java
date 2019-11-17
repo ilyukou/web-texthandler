@@ -1,4 +1,4 @@
-package model;
+package utils;
 
 import model.text.Paragraph;
 import model.text.Sentence;
@@ -10,7 +10,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public final class SplitUtils {
+public final class Parser {
     private static final Converter converter = new Converter();
 
     private static final String regExForSplitTextByParagraphs = "[\\s]{2,}";
@@ -34,7 +34,7 @@ public final class SplitUtils {
     public static List<Paragraph> getParagraphsFromString(String text){
 
         List<Paragraph> paragraphs = new ArrayList<Paragraph>();
-        List<String> paragraphStrings = splitTextByParagraphsString(text);
+        List<String> paragraphStrings = removeBlankString(Arrays.asList(text.split(regExForSplitTextByParagraphs)));
 
         for (String string : paragraphStrings){
             paragraphs.add(new Paragraph(getSentencesFromParagraphString(string)));
@@ -44,30 +44,11 @@ public final class SplitUtils {
 
     public static List<Sentence> getSentencesFromParagraphString(String paragraph){
 
-        List<String> strings = splitParagraphStringBySentenceStrings(paragraph);
-        System.out.println();
+        List<String> strings = removeBlankString(Arrays.asList(paragraph.split(regExForSplitBySentences)));
+
         return Converter.convertListOfStringTextElementToListSentence(strings);
     }
 
-
-    private static List<String> splitTextByParagraphsString(String text) throws IllegalArgumentException {
-        if(StringUtils.isBlank(text)){
-            throw new IllegalArgumentException("String is null or length 0");
-        }
-
-        List<String> list = removeBlankString(Arrays.asList(text.split(regExForSplitTextByParagraphs)));
-
-        return list;
-    }
-
-    private static List<String> splitParagraphStringBySentenceStrings(String text) throws IllegalArgumentException {
-        if(StringUtils.isBlank(text)){
-            throw new IllegalArgumentException("String is null or length 0");
-        }
-        List<String> list = Arrays.asList(text.split(regExForSplitBySentences));
-        System.out.println();
-        return removeBlankString(list);
-    }
 
     private static List<String> removeBlankString(List<String> list) {
 

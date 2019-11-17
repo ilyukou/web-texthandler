@@ -37,7 +37,7 @@ public class Sentence {
             }else if(getTextElements().get(i).getTextElementType() == TextElementType.PunctuationMark){
                 sentence.append(getTextElements().get(i).getValue());
 
-            }else if(getTextElements().get(i).getTextElementType() == TextElementType.PunctuationMarkForEndOfLine){
+            }else if(getTextElements().get(i).getTextElementType() == TextElementType.PunctuationMarkForEndOfSentence){
                 sentence.append(getTextElements().get(i).getValue());
 
             }else {

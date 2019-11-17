@@ -5,6 +5,7 @@ import model.text.textElement.TextElement;
 import model.text.textElement.TextElementType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import utils.Converter;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -22,14 +23,14 @@ class ConverterTest {
                 new TextElement("was", TextElementType.Word),
                 new TextElement("a", TextElementType.Word),
                 new TextElement("cold", TextElementType.Word),
-                new TextElement(".", TextElementType.PunctuationMarkForEndOfLine));
+                new TextElement(".", TextElementType.PunctuationMarkForEndOfSentence));
 
         List<TextElement> t2 = Arrays.asList(
                 new TextElement("Old", TextElementType.Word),
                 new TextElement("Deacon", TextElementType.Word),
                 new TextElement(",", TextElementType.PunctuationMark),
                 new TextElement("Joshua", TextElementType.Word),
-                new TextElement("!", TextElementType.PunctuationMarkForEndOfLine));
+                new TextElement("!", TextElementType.PunctuationMarkForEndOfSentence));
 
         Sentence s1 = new Sentence(t1);
         Sentence s2 = new Sentence(t2);

@@ -1,7 +1,9 @@
 package Database;
 
-import model.SplitUtils;
+
 import model.text.Text;
+import org.apache.commons.lang3.StringUtils;
+import utils.Parser;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -11,7 +13,7 @@ public class FileDatabase implements Database{
 
     private static final String filePath = "/home/ilya/Desktop/Code/web-texthandler/backend/src/main/resources/file.txt";
     @Override
-    public void setText(Text data, String filePath) {
+    public void saveText(Text data, String filePath) {
         try {
             FileWriter fileWriter = new FileWriter(filePath);
 
@@ -24,8 +26,12 @@ public class FileDatabase implements Database{
     }
 
     @Override
-    public Text getText(String filePath) {
-        return SplitUtils.createText(getRawContentAsString(filePath));
+    public Text findText(String filePath) {
+        String str = getRawContentAsString(filePath);
+        if(StringUtils.isBlank(str)){
+            return new Text();
+        }
+        return Parser.createText(str);
     }
 
     @Override

@@ -3,7 +3,7 @@ package Database;
 import model.text.Text;
 
 public interface Database {
-    void setText(Text data, String filePath);
-    Text getText(String filePath);
+    void saveText(Text data, String filePath);
+    Text findText(String filePath);
     String getRawContentAsString(String filePath);
 }

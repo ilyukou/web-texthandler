@@ -2,61 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="995767ba-d545-47d2-ac7f-dfad7cb8e56d" name="Default Changelist" comment="c">
-      <change afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/model/Converter$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/lib/log4j-api-2.12.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/lib/log4j-core-2.12.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend/src/test/java/model/text/TextTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/servlets/PostHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/Database/ConfigDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/src/main/java/servlets/PostHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/Database/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/Database/Database.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/Database/FileDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/Database/FileDatabase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/Database/HeapDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/Database/HeapDatabase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/model/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/model/Converter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/model/SplitUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/model/SplitUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/model/Converter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/model/Converter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/model/SplitUtils.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/model/text/Sentence.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/model/text/Sentence.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/model/text/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/model/text/Text.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/model/text/textElement/TextElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/model/text/textElement/TextElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/model/text/textElement/TextElementType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/model/text/textElement/TextElementType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/servlets/DataServlets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/servlets/DataServlets.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/servlets/SortServlets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/servlets/SortServlets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/classes/servlets/UploadServlets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.27/webapps/backend/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/src/main/java/Database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/Database/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/Database/DatabaseSwitcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/Database/DatabaseSwitcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/src/main/java/Database/FileDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/Database/FileDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/Database/HeapDatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/model/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/utils/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/model/SplitUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/utils/Parser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/src/main/java/model/text/Sentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/model/text/Sentence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/src/main/java/model/text/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/model/text/Text.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/src/main/java/model/text/textElement/TextElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/model/text/textElement/TextElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/model/text/textElement/TextElementType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/model/text/textElement/TextElementType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/src/main/java/servlets/DataServlets.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/servlets/DataServlets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/src/main/java/servlets/SortServlets.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/java/servlets/SortServlets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/resources/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/main/resources/file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/test/java/Database/FileDatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/test/java/Database/FileDatabaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/test/java/model/ConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/test/java/model/ConverterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/test/java/model/SplitUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/test/java/model/ParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/test/java/model/text/SentenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/test/java/model/text/SentenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/test/java/model/text/TextTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/test/java/model/text/TextTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/test/java/model/text/textElement/TextElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/test/java/model/text/textElement/TextElementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/test/resources/databaseFileTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/test/resources/databaseFileTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/target/backend.war" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/Database/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/Database/Database.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/Database/FileDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/Database/FileDatabase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/Database/HeapDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/Database/HeapDatabase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/model/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/model/Converter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/model/SplitUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/model/SplitUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/model/Converter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/model/SplitUtils.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/model/text/Sentence.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/model/text/Sentence.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/model/text/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/model/text/Text.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/model/text/textElement/TextElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/model/text/textElement/TextElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/model/text/textElement/TextElementType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/model/text/textElement/TextElementType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/servlets/DataServlets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/servlets/DataServlets.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/servlets/SortServlets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/servlets/SortServlets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/classes/servlets/UploadServlets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/backend/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/target/classes/Database/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/classes/Database/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/target/classes/Database/DatabaseSwitcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/classes/Database/DatabaseSwitcher.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/target/classes/Database/FileDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/classes/Database/FileDatabase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/target/classes/Database/HeapDatabase.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/target/classes/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/classes/file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/target/classes/model/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/classes/model/Converter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/target/classes/model/SplitUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/classes/model/SplitUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/model/Converter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/model/SplitUtils.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/target/classes/model/text/Sentence.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/classes/model/text/Sentence.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/target/classes/model/text/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/classes/model/text/Text.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/target/classes/model/text/textElement/TextElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/classes/model/text/textElement/TextElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/model/text/textElement/TextElementType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/classes/model/text/textElement/TextElementType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/target/classes/servlets/DataServlets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/classes/servlets/DataServlets.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/target/classes/servlets/SortServlets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/target/classes/servlets/SortServlets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/target/classes/servlets/UploadServlets.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Text.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Text.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Text.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Text.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +94,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -139,6 +147,9 @@
       <workItem from="1573932018214" duration="14617000" />
       <workItem from="1573980166996" duration="4010000" />
       <workItem from="1574001566730" duration="599000" />
+      <workItem from="1574021929437" duration="768000" />
+      <workItem from="1574024714045" duration="46000" />
+      <workItem from="1574027822315" duration="3433000" />
     </task>
     <servers />
   </component>

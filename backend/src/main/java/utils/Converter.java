@@ -1,4 +1,4 @@
-package model;
+package utils;
 
 import model.text.Sentence;
 import model.text.textElement.TextElement;
@@ -6,6 +6,7 @@ import model.text.textElement.TextElementType;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.*;
 
 public class Converter {
 
@@ -63,8 +64,8 @@ public class Converter {
                 case PunctuationMark:
                     textElements.add(new TextElement(string, TextElementType.PunctuationMark));
                     break;
-                case PunctuationMarkForEndOfLine:
-                    textElements.add(new TextElement(string, TextElementType.PunctuationMarkForEndOfLine));
+                case PunctuationMarkForEndOfSentence:
+                    textElements.add(new TextElement(string, TextElementType.PunctuationMarkForEndOfSentence));
                     break;
                 default:
                     throw new IllegalArgumentException("Not found correct TextElementType for "+string);
