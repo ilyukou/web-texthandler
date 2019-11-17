@@ -80,14 +80,14 @@ select{
 }
 
 
-.submit.btn{
+.btn{
     background: #4B99AD;
     padding: 8px 15px 8px 15px;
-    margin-left: 2px;
+    margin-left: 5px;
     border: none;
     color: #fff;
 }
-.submit.btn:hover{
+.btn:hover{
     background: #4691A4;
     box-shadow:none;
     -moz-box-shadow:none;

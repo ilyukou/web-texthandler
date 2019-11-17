@@ -1,6 +1,10 @@
 .Text {
+    margin:10px auto;
+    max-width: 700px;
 }
-.paragraphs {
+p.paragraphs {
+    display: inline-block;
+    max-width: 100%;
     padding: 10px;
     border-radius: 25px;
 
@@ -9,12 +13,16 @@
 }
 
 .sentence {
+    display: inline-block;
+    max-width: 100%;
     background-color: #ecd8d7;
     border-radius: 15px;
     padding: 10px;
 }
 
 .textElement {
+    display: inline-block;
+    max-width: 100%;
     text-align: center;
     border-radius: 3px;
     font-size: 13px;
