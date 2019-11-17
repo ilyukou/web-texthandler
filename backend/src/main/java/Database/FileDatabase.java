@@ -25,7 +25,7 @@ public class FileDatabase implements Database{
 
     @Override
     public Text getText() {
-        String content = "";
+        StringBuilder content = new StringBuilder();
         try {
             BufferedReader br = new BufferedReader(new FileReader(filePath));
 
@@ -33,12 +33,12 @@ public class FileDatabase implements Database{
 
             while ((text = br.readLine()) != null) {
 
-                content += "\n"+text;
+                content.append("\n").append(text);
             }
 
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return SplitUtils.createText(content);
+        return SplitUtils.createText(content.toString());
     }
 }
