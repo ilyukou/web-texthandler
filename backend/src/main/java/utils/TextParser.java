@@ -10,7 +10,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public final class Parser {
+public final class TextParser {
     private static final Converter converter = new Converter();
 
     private static final String regExForSplitTextByParagraphs = "[\\s]{2,}";
@@ -22,7 +22,7 @@ public final class Parser {
      */
     private static final String regExForSplitBySentences = " +|(?=,|\\p{Punct}|…)";
 
-    public static Text createText(String content){
+    public static Text parse(String content){
 
         if(StringUtils.isBlank(content)){
             throw new IllegalArgumentException("String is blank");

@@ -1,6 +1,6 @@
 package model.text;
 
-import utils.Parser;
+import utils.TextParser;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -13,7 +13,7 @@ public class Text {
     public Text(){}
 
     public Text(String text){
-        this.paragraphs = Parser.createText(text).getParagraphs();
+        this.paragraphs = TextParser.parse(text).getParagraphs();
     }
 
     public Text(List<Paragraph> paragraphs) {
