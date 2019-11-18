@@ -27,13 +27,16 @@ public class SortServlets extends HttpServlet {
         resp.addHeader("Access-Control-Allow-Origin","*");
         PrintWriter writer = resp.getWriter();
 
-        Text text = Text.sortTextSentencesByLengthOfWords(database.findText(filePath));
+        Text text = database.findText(filePath);
         Response response;
 
-        if(text != null){
-            response = new Response(ResponseStatus.ok,text);
-        }else {
+        System.out.println();
+        if(text.getParagraphs() == null){
             response = new Response(ResponseStatus.error,text);
+        }else {
+            System.out.println();
+            text = Text.sortTextSentencesByLengthOfWords(text);
+            response = new Response(ResponseStatus.ok,text);
         }
 
         String responseJsonString = gson.toJson(response);
