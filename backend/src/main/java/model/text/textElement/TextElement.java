@@ -2,7 +2,7 @@ package model.text.textElement;
 
 public class TextElement {
     private static final String[] PUNCTUATION_MARKS = {",",":"};
-    private static final String[] PUNCTUATION_MARK_FOR_END_OF_LINE = {".","?","!",";"};
+    private static final String[] PUNCTUATION_MARK_FOR_END_OF_SENTENCE = {".","?","!",";"};
 
     private TextElementType textElementType;
     private String value;
@@ -32,8 +32,8 @@ public class TextElement {
         return PUNCTUATION_MARKS;
     }
 
-    public static String[] getPunctuationMarkForEndOfLine() {
-        return PUNCTUATION_MARK_FOR_END_OF_LINE;
+    public static String[] getPunctuationMarkForEndOfSentence() {
+        return PUNCTUATION_MARK_FOR_END_OF_SENTENCE;
     }
 
     public static TextElementType getTypeOfElement(String value){
@@ -43,7 +43,7 @@ public class TextElement {
                 return TextElementType.PunctuationMark;
             }
         }
-        for (String marks : PUNCTUATION_MARK_FOR_END_OF_LINE){
+        for (String marks : PUNCTUATION_MARK_FOR_END_OF_SENTENCE){
             if(marks.equals(value)){
                 return TextElementType.PunctuationMarkForEndOfSentence;
             }

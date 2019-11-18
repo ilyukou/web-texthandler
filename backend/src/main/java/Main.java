@@ -9,7 +9,7 @@ public class Main {
         Text text = TextParser
                 .parse(
                         db.getRawContentAsString
-                                ("src/main/resources/file.txt"));
+                                ("src/main/resources/text.txt"));
         String s1 = text.getParagraphs().get(0).getSentenceList().get(0).getSentenceAsString();
         String s2 = text.getParagraphs().get(0).getSentenceList().get(1).getSentenceAsString();
         System.out.println();
