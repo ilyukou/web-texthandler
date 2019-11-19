@@ -28,7 +28,7 @@ class ParagraphTest {
         when(secondSentence.getSentenceAsString()).thenReturn("Is real!");
         when(thirdSentence.getSentenceAsString()).thenReturn("Bla bla blllalalal.");
 
-        String expected = "\tHi, what are you name? Is real! Bla bla blllalalal.";
+        String expected = "Hi, what are you name? Is real! Bla bla blllalalal.";
 
         Paragraph paragraph = new Paragraph(Arrays.asList(firstSentence,secondSentence,thirdSentence));
         assertEquals(expected, paragraph.getParagraphAsString());

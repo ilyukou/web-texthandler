@@ -42,12 +42,19 @@ public class Text {
 
         StringBuilder stringBuilder = new StringBuilder();
 
-        for (Paragraph paragraph: getParagraphs()){
-            stringBuilder.append("\n").append(paragraph.getParagraphAsString());
+        for(int i=0; i<getParagraphs().size(); i++){
+
+            if(i==0){
+                stringBuilder.append("    ");
+                stringBuilder.append(getParagraphs().get(i).getParagraphAsString());
+            }else {
+                stringBuilder.append("\n");
+                stringBuilder.append("    ");
+                stringBuilder.append(getParagraphs().get(i).getParagraphAsString());
+            }
         }
 
         return stringBuilder.toString();
-
     }
 
 

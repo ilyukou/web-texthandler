@@ -41,10 +41,16 @@ public class FileDatabase implements Database{
             BufferedReader br = new BufferedReader(new FileReader(filePath));
 
             String text;
-
+            int count = 0;
             while ((text = br.readLine()) != null) {
 
-                content.append("\n").append(text);
+                // check if isn't first string then add paragraph in next string
+                if(count != 0){
+                    content.append("\n");
+                }
+                content.append(text);
+                count++;
+
             }
 
         } catch (Exception e) {

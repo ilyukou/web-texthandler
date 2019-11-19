@@ -19,6 +19,15 @@ public class TextTest {
     }
 
     @Test
+    public void getTextAsString() {
+        String actual = text.getTextAsString();
+
+        String expected = database.getRawContentAsString(filePath);
+
+        Assertions.assertEquals(expected,actual);
+    }
+
+    @Test
     public void sortTextSentencesByLengthOfWords() {
         text = Text.sortTextSentencesByLengthOfWords(text);
 
@@ -34,13 +43,5 @@ public class TextTest {
             }
         }
         Assertions.assertTrue(true);
-    }
-
-    @Test
-    public void getTextAsString() {
-        String actual = text.getTextAsString();
-        String expected = database.getRawContentAsString(filePath);
-
-        Assertions.assertEquals(expected,actual);
     }
 }

@@ -26,8 +26,10 @@ public class Paragraph {
 //        }
         for (int i=0; i<sentences.size(); i++){
             if(i == 0){
-                paragraph.append('\t').append(sentences.get(i).getSentenceAsString());
+                // if it's first sentence
+                paragraph.append(sentences.get(i).getSentenceAsString());
             }else {
+                // if isn't first sentence then add space between before sentence and now sentence
                 paragraph.append(" ").append(sentences.get(i).getSentenceAsString());
             }
         }
