@@ -17,11 +17,6 @@ class ParagraphTest {
     private Sentence secondSentence = Mockito.mock(Sentence.class);
     private Sentence thirdSentence = Mockito.mock(Sentence.class);
 
-    @BeforeEach
-    void setUp() {
-
-    }
-
     @Test
     void getParagraphAsString() {
         when(firstSentence.getSentenceAsString()).thenReturn("Hi, what are you name?");

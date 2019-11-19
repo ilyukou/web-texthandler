@@ -3,7 +3,7 @@ package Database;
 
 import model.text.Text;
 import org.apache.commons.lang3.StringUtils;
-import utils.TextParser;
+import utils.TextParserUtil;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -31,7 +31,7 @@ public class FileDatabase implements Database{
         if(StringUtils.isBlank(str)){
             return new Text();
         }
-        return TextParser.parse(str);
+        return TextParserUtil.parse(str);
     }
 
     @Override

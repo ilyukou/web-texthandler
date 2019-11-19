@@ -14,7 +14,7 @@ class Text extends Component {
         );
     }
     getParagraphsContainsSentences(paragraph){
-        return  paragraph.sentenceList.map((sentence) =>
+        return  paragraph.sentences.map((sentence) =>
             <div className="sentence">
                 {this.getSentenceContainsTextElements(sentence)}
             </div>

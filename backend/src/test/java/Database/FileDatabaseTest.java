@@ -19,20 +19,24 @@ class FileDatabaseTest {
         textAsString = "Bla blaf 2f2lfa fle2lf.";
     }
 
-    // how it's are testing ?
+
     @Test
     void setText() {
         fileDatabase.saveText(new Text(textAsString),databaseFileTestPath);
+
+        // "   " because database call Text.getTextAsString() -> .getTextAsString() add "   "
+        // before new paragraph string start
+        assertEquals("    "+textAsString,fileDatabase.getRawContentAsString(databaseFileTestPath));
     }
 
-    // FIXME
-    //@Test
+
+    @Test
     void getText() {
         assertEquals(new Text(textAsString).getTextAsString(),
                 fileDatabase.findText(databaseFileTestPath).getTextAsString());
     }
-    // FIXME
-    //@Test
+
+    @Test
     void getRawContentAsString() {
         assertEquals(new Text(textAsString).getTextAsString(),
                 new Text(fileDatabase.getRawContentAsString(databaseFileTestPath)).getTextAsString());

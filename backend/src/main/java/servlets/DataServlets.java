@@ -35,7 +35,7 @@ public class DataServlets extends HttpServlet{
         Text text = database.findText(filePath);
         Response response;
 
-        if(text != null){
+        if(text.getParagraphs() != null){
             response = new Response(ResponseStatus.ok,text);
         }else {
             response = new Response(ResponseStatus.error,text);

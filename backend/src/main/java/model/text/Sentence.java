@@ -17,6 +17,10 @@ public class Sentence {
         return textElements;
     }
 
+    public void setTextElements(List<TextElement> textElements) {
+        this.textElements = textElements;
+    }
+
     public int getCountOfTextElements(){
         return getTextElements().size();
     }

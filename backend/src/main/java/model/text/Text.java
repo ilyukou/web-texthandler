@@ -1,6 +1,6 @@
 package model.text;
 
-import utils.TextParser;
+import utils.TextParserUtil;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -13,7 +13,7 @@ public class Text {
     public Text(){}
 
     public Text(String text){
-        this.paragraphs = TextParser.parse(text).getParagraphs();
+        this.paragraphs = TextParserUtil.parse(text).getParagraphs();
     }
 
     public Text(List<Paragraph> paragraphs) {
@@ -29,7 +29,7 @@ public class Text {
 
         List<Sentence> sentences = new ArrayList<>();
         for (Paragraph paragraph : text.getParagraphs()){
-            sentences.addAll(paragraph.getSentenceList());
+            sentences.addAll(paragraph.getSentences());
         }
 
         List<Paragraph> sortedSentenceInParagraph = new ArrayList<>();
