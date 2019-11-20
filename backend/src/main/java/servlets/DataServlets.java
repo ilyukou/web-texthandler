@@ -10,6 +10,8 @@ import org.apache.commons.fileupload.FileItemStream;
 import org.apache.commons.fileupload.FileUploadException;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.apache.commons.fileupload.util.Streams;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -24,10 +26,12 @@ public class DataServlets extends HttpServlet{
     private Gson gson = new Gson();
     private Database database = DatabaseSwitcher.getDatabase();
     private String filePath = "/home/ilya/Desktop/Code/web-texthandler/backend/src/main/resources/file.txt";
+    private static final Logger LOG = LogManager.getLogger(DataServlets.class);
 
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        LOG.info("DataServlets.doGet");
         // fix cors polity
         resp.addHeader("Access-Control-Allow-Origin","*");
         PrintWriter writer = resp.getWriter();
@@ -38,6 +42,7 @@ public class DataServlets extends HttpServlet{
         if(text.getParagraphs() != null){
             response = new Response(ResponseStatus.ok,text);
         }else {
+            LOG.warn("Return Response where ResponseStatus.error");
             response = new Response(ResponseStatus.error,text);
         }
 
@@ -49,7 +54,7 @@ public class DataServlets extends HttpServlet{
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        System.out.println("POST http req");
+        LOG.info("DataServlets.doPost");
 
         // fix cors polity
         resp.addHeader("Access-Control-Allow-Origin","*");

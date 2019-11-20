@@ -6,6 +6,8 @@ import model.text.Text;
 import model.text.textElement.TextElement;
 import model.text.textElement.TextElementType;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,6 +15,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public final class TextParserUtil {
+    private static final Logger LOG = LogManager.getLogger(TextParserUtil.class);
 
     // space two or more times
     private static final String regExForSplitTextByParagraphs = "[\\s]{2,}";
@@ -30,8 +33,9 @@ public final class TextParserUtil {
      * sentences and TextElements
      */
     public static Text parse(String content){
-
+        LOG.info("parse");
         if(StringUtils.isBlank(content)){
+            LOG.error("String is blank");
             throw new IllegalArgumentException("String is blank");
         }
 
@@ -109,6 +113,7 @@ public final class TextParserUtil {
                     textElements.add(new TextElement(string, TextElementType.PunctuationMarkForEndOfSentence));
                     break;
                 default:
+                    LOG.error("Not found correct TextElementType for "+string);
                     throw new IllegalArgumentException("Not found correct TextElementType for "+string);
             }
         }

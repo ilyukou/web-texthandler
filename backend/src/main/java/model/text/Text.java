@@ -1,5 +1,7 @@
 package model.text;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import utils.TextParserUtil;
 
 import java.util.ArrayList;
@@ -7,7 +9,7 @@ import java.util.Comparator;
 import java.util.List;
 
 public class Text {
-
+    private static final Logger LOG = LogManager.getLogger(Text.class);
     private List<Paragraph> paragraphs;
 
     public Text(){}
@@ -21,7 +23,11 @@ public class Text {
     }
 
     private static List<Sentence> compare(List<Sentence> sentences){
-        final Comparator<Sentence> COMPARATOR = Comparator.comparing(Sentence::getCountOfTextElements);
+        /*
+         * Sentence::getCountOfTextElements
+         * Get Sentence returns int
+         */
+        final Comparator<Sentence> COMPARATOR = Comparator.comparing(Sentence::getCountOfWords);
         sentences.sort(COMPARATOR);
         return sentences;
     }

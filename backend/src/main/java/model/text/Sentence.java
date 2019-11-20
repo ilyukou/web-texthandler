@@ -2,12 +2,15 @@ package model.text;
 
 import model.text.textElement.TextElement;
 import model.text.textElement.TextElementType;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.List;
 
 public class Sentence {
+    private static final Logger LOG = LogManager.getLogger(Sentence.class);
 
     private List<TextElement> textElements;
-
 
     public Sentence(List<TextElement> textElements) {
         this.textElements = textElements;
@@ -23,6 +26,16 @@ public class Sentence {
 
     public int getCountOfTextElements(){
         return getTextElements().size();
+    }
+
+    public int getCountOfWords(){
+        int count = 0;
+        for (TextElement textElement : getTextElements()){
+            if(textElement.getTextElementType() == TextElementType.Word){
+                count++;
+            }
+        }
+        return count;
     }
 
     public String getSentenceAsString(){
@@ -45,6 +58,7 @@ public class Sentence {
                 sentence.append(getTextElements().get(i).getValue());
 
             }else {
+                LOG.error("Illegal text element type");
                 throw new IllegalArgumentException("Illegal text element type");
             }
         }

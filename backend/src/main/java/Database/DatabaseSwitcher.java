@@ -1,7 +1,10 @@
 package Database;
 
-public final class DatabaseSwitcher {
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
+public final class DatabaseSwitcher {
+    private static final Logger LOG = LogManager.getLogger(DatabaseSwitcher.class);
     private static Database fileDatabase = new FileDatabase();
 
     public static Database getDatabase() {
@@ -10,6 +13,7 @@ public final class DatabaseSwitcher {
         if (condition) {
             return fileDatabase;
         }
+        LOG.error("Not Found correct Database");
         throw new IllegalArgumentException("Not Found correct Database");
     }
 }

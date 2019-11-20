@@ -6,6 +6,8 @@ import com.google.gson.Gson;
 import model.Response;
 import model.ResponseStatus;
 import model.text.Text;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -16,13 +18,16 @@ import java.io.PrintWriter;
 
 public class SortServlets extends HttpServlet {
 
+    private static final Logger LOG = LogManager.getLogger(SortServlets.class);
+
     private Gson gson = new Gson();
     private Database database = DatabaseSwitcher.getDatabase();
-
     private String filePath = "/home/ilya/Desktop/Code/web-texthandler/backend/src/main/resources/file.txt";
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        LOG.info("SortServlets.doGet");
+
         // fix cors polity
         resp.addHeader("Access-Control-Allow-Origin","*");
         PrintWriter writer = resp.getWriter();
@@ -32,6 +37,7 @@ public class SortServlets extends HttpServlet {
 
         System.out.println();
         if(text.getParagraphs() == null){
+            LOG.warn("Return Response where ResponseStatus.error");
             response = new Response(ResponseStatus.error,text);
         }else {
             System.out.println();
